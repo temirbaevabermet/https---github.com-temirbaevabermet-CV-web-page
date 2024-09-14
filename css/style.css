@@ -46,6 +46,15 @@
   .Images2{
     width: 300px;
     height: auto;
+    border: 2px solid rgb(25, 25, 200);
+}
+.images111{
+    width: 300px;
+    border: 2px solid rgb(25, 25, 200);
+    
+  }
+.textStyles{
+    text-align: center;
 }
 .image-row2 {
     display: flex;
