@@ -86,7 +86,12 @@
     width: 30px;
     height: auto;
 }
-.bar{ /*style the bar*/
+.skillStyle{
+    display: flex;
+    justify-content: space-between;
+
+}
+.bar{ 
 	background-color: #353b48;
 	display: block;
 	height: 2px;
@@ -95,8 +100,86 @@
 	overflow: hidden;
 	box-shadow: 0 0 10px #2187e7b3;
 }
-.bar span{ /*style the span tag*/
+.bar span{ 
 	height: 2px;
 	float: left;
 	background-color: #2187e7;
+}
+.kyrgyz{ 
+	width: 100%;
+	animation: kyrgyz 2s;
+}
+@keyframes kyrgyz{ 
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 100%;
+	}
+}
+.skills{ 
+	width: 500px;
+	margin-left: 40px;
+	color: black;
+}
+
+.skills li{ 
+	margin: 20px 0;
+}
+
+.russian{ 
+	width: 100%;
+	animation: russian 2s;
+}
+@keyframes russian{ 
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 100%;
+	}
+}
+
+.english{ 
+	width: 80%;
+	animation: english 2s;
+}
+@keyframes english{ 
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 80%;
+	}
+}
+
+.korean{ 
+	width: 40%;
+	animation: korean 2s;
+}
+@keyframes korean{ 
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 40%;
+	}
+}
+
+.french{ 
+	width: 50%;
+	animation: french 2s;
+}
+@keyframes french{ 
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 50%;
+	}
 }
