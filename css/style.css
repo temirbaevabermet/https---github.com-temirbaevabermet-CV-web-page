@@ -1,0 +1,49 @@
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .myPhoto{
+    width: 300px;
+    height: auto;
+    border-color: #6699CC;
+    border-style: solid;
+}
+.article1 {
+    padding: 10px;
+    margin: 20px;
+    background: #F0F8FF;
+    font-size: 18px;
+  }
+  .bodyStyle{
+    margin-left: 280px;
+    margin-right: 280px;
+    border-color: #004792;
+    border-style: solid;
+    background-color: #F0F8FF;
+
+}
+.section2 {
+    display: flex;
+    text-align: center;
+  }
+  .head {
+    font-size: 25px;
+  }
+  .montserrat{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .margin{
+    margin-left: 40px;
+  }
+  .size{
+    font-size: 15px;
+    margin-right:5px ;
+  }
+  .Images2{
+    width: 300px;
+    height: auto;
+}
