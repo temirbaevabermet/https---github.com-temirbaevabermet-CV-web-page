@@ -47,3 +47,56 @@
     width: 300px;
     height: auto;
 }
+.image-row2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.flowerPhoto{
+    width:50px;
+    height: auto;
+}
+.social__icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 240px;
+  }
+  .social__icon--link{
+    color: darkblue;
+    font-size: 24px;
+  }
+  .social__media{
+    max-width: 1000px;
+    width: 100%;
+  }
+  .social__media--wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto 0 auto;
+  }
+  .website__right{
+    color: darkblue;
+    font-size: 20px;
+  }
+.world{
+    width: 30px;
+    height: auto;
+}
+.bar{ /*style the bar*/
+	background-color: #353b48;
+	display: block;
+	height: 2px;
+	border: 1px solid rgba(0,0,0,0.3);
+	border-radius: 3px;
+	overflow: hidden;
+	box-shadow: 0 0 10px #2187e7b3;
+}
+.bar span{ /*style the span tag*/
+	height: 2px;
+	float: left;
+	background-color: #2187e7;
+}
